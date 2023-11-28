@@ -4,3 +4,31 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --font-color: #000;
+    --background-color: #fff;
+  }
+}
+
+:root.theme-light {
+  --font-color: #000;
+  --background-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000;
+    --font-wl-card: 465;
+    --font-wb-card: 785;
+    --font-color: #00cc14;
+  }
+}
+
+:root.theme-dark {
+  --background-color: #000;
+  --font-wl-card: 465;
+  --font-wb-card: 785;
+  --font-color: #00cc14;
+}

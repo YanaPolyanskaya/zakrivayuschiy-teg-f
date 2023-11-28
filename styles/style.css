@@ -17,4 +17,78 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-variation-settings: var(--main-font);
+  color: var(--font-color);
+  background-color: var(--background-color);
+}
+.header {
+  display: grid;
+
+  background-image: var(--background-gradient);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  /* width: 100vw; */
+}
+
+.header__window {
+  display: block;
+  position: relative;
+  height: clamp(20.438rem, 19.535rem + 3.85vw, 23rem); 
+  /* clamp(20.188rem, 19.285rem + 3.85vw, 22.75rem); - это размер по фигме он не подходит */
+  width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
+  /* clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem); */
+  background-color: #FFFFFF;
+  border: 2px solid var(--border);
+  /* margin-block-start: 102px; */
+  /* align-self: center;
+  justify-content: center;
+  align-content: center; */
+  justify-self: center;
+  text-align: center;
+  /* vertical-align: bottom; */text-transform: uppercase;
+} 
+
+.header__title {
+  font-family: var(--accent-font);
+  font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+  /* margin-block-start: 120px; */
+  
+}
+.theme-menu {
+  
+}
+.header__theme-menu {
+  
+}
+.theme-menu__list {
+  /* all: none; */
+  
+  display: grid;
+  gap: 14px;
+}
+.theme-menu__item {
+}
+.theme-menu__button {
+  border: none;
+  text-transform: uppercase;
+  /* text-align: left; */
+  /* padding: 0; */
+}
+.theme-menu__button:disabled::before {
+  /* position: absolute; */
+  content: "▶";
+
+
+}
+
+.main {
+}
+.card {
+}
+.card__title {
+}
+.card__img {
+}
+.card__content {
 }
