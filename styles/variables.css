@@ -1,15 +1,24 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    --main-font: "Inter-Variable", sans-serif;
-    --accent-font: "PressStart2P", sans-serif;
-    --font-wl-card: 400;
-    --font-wb-card: 700;
-    --font-color: #000;
-    --background-color: #fff;
-    --background-gradient: 
-    repeating-linear-gradient(to left, transparent 0 2px, #d3d3d3 2px 4px),
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+  --font-wl-card: clamp(25rem, 23.57rem + 6.103vw, 29.063rem);
+  --font-wb-card: clamp(43.75rem, 41.879rem + 7.981vw, 49.063rem);
+  --font-size-main: 14px;
+  --background-color: #fff;
+  --background-gradient: repeating-linear-gradient(
+      to left,
+      transparent 0 2px,
+      #d3d3d3 2px 4px
+    ),
     repeating-linear-gradient(to top, transparent 0 2px, #d3d3d3 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-    --border: #000;
+  --border: #000;
+  --accent-color: #000;
+  --heart-core-color: #fff;
+  --heart-main-body-color: #fff;
+  --heart-counter-color: #000;
+  --heart-sparks-color: #f00;
+  --heart-color: #f00;
 }

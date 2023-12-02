@@ -18,10 +18,11 @@
     url(./Inter-Variable.woff2) format("woff2-variations");
   font-display: swap;
   font-weight: 400 785;
+  font-style: normal;
 }
 
-@supports (font-variation-settings: normal) {
+/* @supports (font-variation-settings: normal) {
   body {
     font-family: "Inter-Variable";
   }
-}
+} */
