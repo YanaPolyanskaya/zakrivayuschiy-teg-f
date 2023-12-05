@@ -29,6 +29,8 @@
   --heart-counter-color: #000;
   --heart-sparks-color: #f00;
   --heart-color: #f00;
+  --wght-card-title: 700;
+  --wght-card-text: 400;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,6 +52,8 @@
     --heart-counter-color: #00cc14;
     --heart-sparks-color: #f00;
     --heart-color: #f00;
+    --wght-card-title: 785;
+    --wght-card-text: 465;
   }
 }
 
@@ -71,4 +75,6 @@
   --heart-counter-color: #00cc14;
   --heart-sparks-color: #f00;
   --heart-color: #f00;
+  --wght-card-title: 785;
+  --wght-card-text: 465;
 }

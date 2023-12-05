@@ -2,9 +2,11 @@
 
 :root {
   --main-font: "Inter-Variable", sans-serif;
-  --accent-font: "PressStart2P", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
   --font-wl-card: clamp(25rem, 23.57rem + 6.103vw, 29.063rem);
   --font-wb-card: clamp(43.75rem, 41.879rem + 7.981vw, 49.063rem);
+  --wght-card-title: 700;
+  --wght-card-text: 400;
   --font-size-main: 14px;
   --background-color: #fff;
   --background-gradient: repeating-linear-gradient(
