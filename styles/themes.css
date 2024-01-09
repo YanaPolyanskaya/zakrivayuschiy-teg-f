@@ -31,6 +31,7 @@
   --heart-color: #f00;
   --wght-card-title: 700;
   --wght-card-text: 400;
+  --button-text: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +55,7 @@
     --heart-color: #f00;
     --wght-card-title: 785;
     --wght-card-text: 465;
+    --button-text: #00cc14;
   }
 }
 
@@ -77,4 +79,5 @@
   --heart-color: #f00;
   --wght-card-title: 785;
   --wght-card-text: 465;
+  --button-text: #00cc14;
 }
