@@ -427,7 +427,6 @@
   transition: border 0.3s ease;
   max-block-size: 38px;
   background-color: transparent;
-
   padding: 0;
   border: transparent;
 }
@@ -441,6 +440,10 @@
   border: 2px solid var(--border);
 }
 
+.card__icon-button:hover {
+  cursor: pointer;
+}
+
 .like-icon {
   display: block;
 }
@@ -451,8 +454,8 @@
 }
 
 .save__button {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
   border: 2px solid var(--accent-color);
   align-items: center;
   gap: 8px;
@@ -464,7 +467,7 @@
 .save__button-icon {
   display: block;
   position: relative;
-  color: var(--background-color);
+  color: var(--button-text);
   inline-size: 28px;
   block-size: 28px;
 
@@ -515,9 +518,10 @@
   text-transform: uppercase;
 }
 
-@media (width >=375px) {
+@media (width >375px) {
   .save__button {
     display: flex;
+    flex-direction: row;
     padding: 12px 20px;
   }
 
